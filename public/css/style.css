@@ -14,6 +14,10 @@ article {
 	border-radius: 4px;
 	overflow: hidden;
 }
+figure figcaption {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
 footer {
 	background-color: var(--dark-blue);
 	color: var(--light);
