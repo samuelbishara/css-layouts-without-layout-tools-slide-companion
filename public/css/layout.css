@@ -4,6 +4,18 @@
 	padding: 0;
 }
 
+header h1 {
+	float: left;
+}
+header nav {
+	float: right;
+}
+
+.clearfix::after {
+	clear: both;
+	content: '';
+	display: table;
+}
 .container {
 	margin: 0 auto;
 	width: 1000px;
