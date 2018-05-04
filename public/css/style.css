@@ -1,0 +1,26 @@
+:root {
+	--dark: #114;
+	--dark-blue: #3f6f9f;
+	--light: #eef;
+	--light-blue: #9fcfff;
+}
+html {
+	color: dark;
+	font: 14px/1.618 sans-serif;
+}
+
+article {
+	border: 1px solid var(--light-blue);
+	border-radius: 4px;
+	overflow: hidden;
+}
+footer {
+	background-color: var(--dark-blue);
+	color: var(--light);
+}
+header {
+	background-color: var(--light-blue);
+}
+ul {
+	list-style: none;
+}
