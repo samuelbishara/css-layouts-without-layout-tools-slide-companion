@@ -3,10 +3,12 @@
 	--dark-blue: #3f6f9f;
 	--light: #eef;
 	--light-blue: #9fcfff;
+	
+	--font: 14px/1.618 sans-serif;
 }
 html {
-	color: dark;
-	font: 14px/1.618 sans-serif;
+	color: var(--dark);
+	font: var(--font);
 }
 
 article {
@@ -14,6 +16,12 @@ article {
 	border-radius: 4px;
 	overflow: hidden;
 }
+
+figure figcaption {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
 footer {
 	background-color: var(--dark-blue);
 	color: var(--light);

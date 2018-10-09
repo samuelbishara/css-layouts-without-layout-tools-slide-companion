@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+figure {
+	margin: 1rem 0;
+	position: relative;
+}
+
+figure figcaption {
+	bottom: 0.4rem;
+	padding: 0.5rem;
+	position: absolute;
+	width: 100%;
+}
+
+figure img {
+	width: 100%;
+}
+
+footer {
+	padding: 1rem;
+}
+
+footer nav ul {
+	text-align: center;
+}
+
+footer nav ul li {
+	display: inline-block;
+	margin-left: 0.5rem;
+}
+
+footer small {
+	display: block;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+header h1 {
+	float: left;
+	padding-left: 1rem;
+}
+
+header nav {
+	float: right;
+	padding-right: 1rem;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 0.5rem;
+	margin-top: 0.75rem;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.clearfix::after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.highlights {
+	margin: 3rem 0;
+}
+
+.highlights article {
+	float: left;
+	margin-right: 2%;
+	padding: 1rem;
+	width: 32%;
+}
+
+.highlights article:last-child {
+	margin-right: 0;
+}
+
+.posts {
+	margin: 3rem 0;
+}
+
+.post {
+	float: left;
+	margin-right: 2%;
+	width: 49%;
+}
+
+.post:last-child {
+	margin-right: 0;
+}
+
+.post header,
+.post .content,
+.post footer {
+	padding: 1rem;
+}
