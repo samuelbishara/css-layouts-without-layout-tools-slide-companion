@@ -4,8 +4,11 @@ This example is a companion to [this](http://wecancodeit.github.io/java-slides/f
 
 ## Installation Instructions
 
-1. Clone this project into `wcci/code`
-1. `cd` into this project directory
-1. `gradle eclipse`
-1. Pending a Successful Build, import into Eclipse
-1. Start the Application and navigate to `localhost:8080` in your browser
+1. Clone this repository to `~/code`
+1. `cd` into `css-demo`
+1. Run `code .` to open this project in VS Code.
+
+## Exercise Instructions
+Follow along with the slide in the presentation above.
+
+You can open the `index.html` file by right clicking on the file in the explorer and selecting "Open with Live Server".  Doing this will let you view changes to the web page as you work on and save the `layout.css` file.
